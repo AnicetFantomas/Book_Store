@@ -6,10 +6,10 @@ import BooksContainer from './components/BooksContainer/BooksContainer';
 const App = () => (
   <>
     <Routes>
-      <Route path='/' exact element={<BooksContainer />} />
-      <Route path='/Categories' exact element={<Categories />} />
+      <Route path="/" exact element={<BooksContainer />} />
+      <Route path="/Categories" exact element={<Categories />} />
     </Routes>
   </>
-)
+);
 
 export default App;
