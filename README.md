@@ -5,7 +5,7 @@ A book app wich can store, remove and edit a specific book from the list using R
 
 ## Built With
 
-- Major languages: Javascript, HTML & CSS
+- Major languages: JavaScript, HTML & CSS
 - Frameworks: React, Redux
 
 
