@@ -1,16 +1,17 @@
-const CHECK = 'BookStore/Categories/CHECK_STATUS';
+const CHECK = 'COMPLETED';
 
-const categoriesReduce = (state = [], action) => {
+const categoriesReducer = (state = '', action) => {
+  const info = 'Under construction';
   switch (action.type) {
     case CHECK:
-      return 'Under construction';
+      return info;
 
     default: return state;
   }
 };
 
-export const catAction = () => ({
+export const categAction = () => ({
   type: CHECK,
 });
 
-export default categoriesReduce;
+export default categoriesReducer;

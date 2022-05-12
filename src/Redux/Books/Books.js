@@ -1,18 +1,29 @@
-const ADD = 'BookStore/Books/ADD_BOOK';
-const REMOVE = 'BookStore/Books/REMOVE_BOOK';
+/* eslint-disable no-unused-vars */
+const ADD = 'ADD_BOOK';
+const REMOVE = 'REMOVE_BOOK';
+const booksInitial = [];
 
-const bookReducer = (state = [], action) => {
+export const addNewBook = (title, author, id) => {
+  booksInitial.push({
+    id,
+    author,
+    title,
+    // completed,
+  });
+};
+
+let ID = 0;
+export const remove = (id) => {
+  ID = id;
+};
+
+const bookReducer = (state = booksInitial, action) => {
   switch (action.type) {
     case ADD:
-      return {
-        ...state,
-        books: [state.title, state.author, action.type],
-      };
+      return [...booksInitial];
     case REMOVE:
-      return {
-        ...state,
-        books: state.filter((book) => book.title !== action.type),
-      };
+      return [...state.filter((book) => book.id !== ID)];
+
     default: return state;
   }
 };

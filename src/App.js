@@ -5,8 +5,8 @@ import BooksContainer from './components/BooksContainer/BooksContainer';
 const App = () => (
   <>
     <Routes>
-      <Route path="/" exact element={<BooksContainer />} />
-      <Route path="/Categories" exact element={<Categories />} />
+      <Route path="/" element={<BooksContainer />} />
+      <Route path="/Categories" element={<Categories />} />
     </Routes>
   </>
 );
