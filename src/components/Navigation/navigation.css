@@ -1,19 +1,19 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.navigation-container{
-    display: flex;
-    margin-bottom: 20px;
+.navigation-container {
+  display: flex;
+  margin-bottom: 20px;
 }
 
-.links{
-    align-self: center;
+.links {
+  align-self: center;
 }
 
 .nav-link {
-    padding: 10px;
-    text-decoration: none;
+  padding: 10px;
+  text-decoration: none;
 }

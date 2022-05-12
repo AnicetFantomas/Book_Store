@@ -1,4 +1,3 @@
-import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Categories from './components/Categories/Categories';
 import BooksContainer from './components/BooksContainer/BooksContainer';
