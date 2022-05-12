@@ -1,6 +1,5 @@
 import React from 'react';
 import { generate } from 'randomized-string';
-import { useSelector } from 'react-redux';
 import { alphanumeric } from 'randomized-string/lib/types';
 import BookItem from '../BookItem/BookItem';
 import BookForm from '../BookForm/BookForm';
