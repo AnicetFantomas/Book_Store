@@ -6,8 +6,8 @@ const Navigation = () => (
   <div className="navigation-container">
     <h1>Bookstore CMS</h1>
     <div className="links">
-      <NavLink exact to="/" activeClassName="nav-active" className="nav-link">Books</NavLink>
-      <NavLink exact to="/Categories" activeClassName="nav-active" className="nav-link">Categories</NavLink>
+      <NavLink to="/" activeClassName="nav-active" className="nav-link">Books</NavLink>
+      <NavLink to="/Categories" activeClassName="nav-active" className="nav-link">Categories</NavLink>
     </div>
   </div>
 );
