@@ -6,7 +6,7 @@ import { addNewBook, addBook } from '../../Redux/Books/Books';
 const BookForm = () => {
   const [bookInit, setBook] = useState({
     title: '',
-    category: '',
+    author: '',
     id: 0,
   });
 
