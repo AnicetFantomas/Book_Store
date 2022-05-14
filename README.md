@@ -5,7 +5,8 @@ A single page application (SPA) wich can store, remove and edit a specific book 
 ## How it looks like
 ### main page
 
-![screencapture-localhost-3000-2022-05-14-15_23_33](https://user-images.githubusercontent.com/94958024/168427931-ef7e45a9-0223-42dd-97fb-0ba9e2d26a47.png)
+![screencapture-localhost-3000-2022-05-14-16_50_37 (1)](https://user-images.githubusercontent.com/94958024/168430872-e4593cbf-9692-4323-8199-d4e401e66da0.png)
+
 
 ## Built With
 
