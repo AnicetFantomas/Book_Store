@@ -1,35 +1,34 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
-import { remove, removeBook } from '../../Redux/Books/Books';
+import { removeBookApi } from '../../Redux/Books/BooksApi';
 /* eslint-disable react/prop-types */
 // disabled react/destructuring-assignment
 
-const BookItem = ({ book }) => {
-  const { title, author, id } = book;
+const BookItem = ({ ID, book }) => {
+  const { title, author, category } = book;
   const dispatch = useDispatch();
   const handleRemove = () => {
-    dispatch(removeBook(remove(id)));
+    dispatch(removeBookApi(ID));
   };
 
   return (
     <div>
       <li>
         Title:
+        {' '}
         {title}
         {' '}
         Author:
+        {' '}
         {author}
+        {' '}
+        Category:
+        {' '}
+        {category}
       </li>
       <button type="button" onClick={handleRemove}>delete</button>
     </div>
   );
 };
-
-// BookItem.propTypes = {
-//   title: PropTypes.string.isRequired,
-//   author: PropTypes.string.isRequired,
-//   id: PropTypes.string.isRequired,
-// };
 
 export default BookItem;

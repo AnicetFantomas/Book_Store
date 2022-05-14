@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { generate } from 'randomized-string';
 import { useDispatch } from 'react-redux';
-import { addNewBook, addBook } from '../../Redux/Books/Books';
+import { addNewBook } from '../../Redux/Books/Books';
+import { createBookApi } from '../../Redux/Books/BooksApi';
 
 const BookForm = () => {
   const [bookInit, setBook] = useState({
@@ -13,7 +14,7 @@ const BookForm = () => {
   const dispatch = useDispatch();
   const handleSubmit = (e) => {
     e.preventDefault();
-    dispatch(addBook(addNewBook(bookInit.title, bookInit.author, bookInit.id)));
+    dispatch(createBookApi(addNewBook(bookInit.title, bookInit.author, bookInit.id)));
     e.target.reset();
   };
 
