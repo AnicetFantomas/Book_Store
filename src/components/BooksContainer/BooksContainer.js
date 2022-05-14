@@ -1,10 +1,11 @@
 import BooksList from '../BooksList/BooksList';
+import './BooksContainer.css';
 import Navigation from '../Navigation/Navigation';
 
 const BooksContainer = () => (
-  <div>
+  <div className="main-container">
     <Navigation />
-    <BooksList />
+    <BooksList className="books-list" />
   </div>
 );
 

@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    box-shadow: 5px 5px 50px 5px #c9c8c886;
+    margin: 30px auto;
+    width: 90%;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+}

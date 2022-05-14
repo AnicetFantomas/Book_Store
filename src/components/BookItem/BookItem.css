@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&family=Prompt:wght@300&family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Josefin+Sans:wght@700&family=Oleo+Script+Swash+Caps:wght@700&family=Prompt:wght@300&family=Rubik:wght@700&family=Source+Serif+Pro:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.book-container {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    padding: 15px;
+    background-color: #fff; 
+    border: 2px solid rgba(34, 33, 33, 0.541);
+    margin-bottom: 20px;
+}
+
+.book-layout {
+    display: flex;
+}
+
+.book-progress {
+    display: flex;
+}
+
+.category {
+    color: rgba(0, 0, 0, 0.459);
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Arvo', serif;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    font-family: 'Arvo', serif;
+}
+
+.author {
+    font-size: 18px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+    color:rgba(119, 119, 119, 0.459)
+}
+
+.delete {
+    background: none;
+    width: 90px;
+    height: 30px;
+    color: #000; 
+    margin: 10px 0;
+}
