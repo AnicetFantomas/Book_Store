@@ -104,14 +104,26 @@
 
 .delete {
   background: none;
+  border: none;
   width: 90px;
   height: 30px;
-  color: #000;
-  margin: 10px 0;
+  color: rgba(119, 119, 119, 0.459);
+  margin: 10px;
   font-family: 'Prompt', sans-serif;
+  font-size: 18px;
   cursor: pointer;
 }
 
+.buttons {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.delete:nth-child(2) {
+  border-right: 2px solid rgba(119, 119, 119, 0.459);
+  border-left: 2px solid rgba(119, 119, 119, 0.459);
+}
+
 .delete:hover {
-  background-color: rgb(129, 129, 243);
+  color: #000;
 }

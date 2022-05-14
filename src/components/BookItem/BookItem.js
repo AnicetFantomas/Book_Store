@@ -19,7 +19,11 @@ const BookItem = ({ ID, book }) => {
           <div className="category">{category}</div>
           <div className="title">{title}</div>
           <div className="author">{author}</div>
-          <button type="button" onClick={handleRemove} className="delete">delete</button>
+          <div className="buttons">
+            <button type="button" className="delete">Comment</button>
+            <button type="button" onClick={handleRemove} className="delete">delete</button>
+            <button type="button" className="delete">Edit</button>
+          </div>
         </div>
         <div className="book-progress">
           <img src="https://raw.githubusercontent.com/sainingo/bookstore/development/src/assets/progress.png" className="progerss-img " alt="progress-img" />
