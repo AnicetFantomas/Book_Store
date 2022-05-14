@@ -1,14 +1,14 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .main-container {
-    box-shadow: 5px 5px 50px 5px #c9c8c886;
-    margin: 30px auto;
-    width: 90%;
-    background-color: #fafafa;
-    display: flex;
-    flex-direction: column;
+  box-shadow: 5px 5px 50px 5px #b9b8b886;
+  margin: 30px auto;
+  width: 90%;
+  background-color: #f0ecec83;
+  display: flex;
+  flex-direction: column;
 }

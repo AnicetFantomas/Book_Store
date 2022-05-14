@@ -1,47 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&family=Prompt:wght@300&display=swap');
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .form-container {
-    width: 80%;
-    margin: 0 auto;
-    border-top: 2px solid rgba(34, 33, 33, 0.541);
-    font-family: 'Prompt', sans-serif;
-    font-weight: bold;
+  width: 80%;
+  margin: 0 auto;
+  border-top: 2px solid rgba(34, 33, 33, 0.541);
+  font-family: 'Prompt', sans-serif;
+  font-weight: bold;
 }
 
 .form {
-    display: flex;
-    margin-bottom: 10%;
+  display: flex;
+  margin-bottom: 10%;
 }
 
 h2 {
-    padding: 20px 0;
-    font-size: 25px;
+  padding: 20px 0;
+  font-size: 25px;
 }
 
 .form input {
-    padding: 7px;
-    color: #000;
-    background-color: #fff;
-    font-size: 20px;
-    width: 40%;
-    background: none;
-    margin-right: 15px;
-    border: 2px solid rgba(34, 33, 33, 0.541);
+  padding: 7px;
+  color: #000;
+  background-color: #fff;
+  font-size: 20px;
+  width: 40%;
+  margin-right: 15px;
+  border: 2px solid rgba(34, 33, 33, 0.541);
 }
 
 .form input::placeholder {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .form button {
-    padding: 7px;
-    background-color: rgb(100, 100, 247);
-    font-size: 20px;
-    width: 20%;
+  padding: 7px;
+  background-color: rgb(100, 100, 247);
+  font-size: 20px;
+  width: 20%;
+  cursor: pointer;
 }

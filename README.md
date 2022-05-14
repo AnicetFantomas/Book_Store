@@ -1,7 +1,11 @@
 # BookStore
 
-A book app wich can store, remove and edit a specific book from the list using React. This is app is for all minds fascinated by reading.
+A single page application (SPA) wich can store, remove and edit a specific book from the list using REST API. This is BookStore app is for all minds fascinated by reading.
 
+## How it looks like
+### main page
+
+![screencapture-localhost-3000-2022-05-14-15_23_33](https://user-images.githubusercontent.com/94958024/168427931-ef7e45a9-0223-42dd-97fb-0ba9e2d26a47.png)
 
 ## Built With
 

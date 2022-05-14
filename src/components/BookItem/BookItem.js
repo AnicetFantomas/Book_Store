@@ -19,21 +19,22 @@ const BookItem = ({ ID, book }) => {
           <div className="category">{category}</div>
           <div className="title">{title}</div>
           <div className="author">{author}</div>
+          <button type="button" onClick={handleRemove} className="delete">delete</button>
         </div>
         <div className="book-progress">
-          <img src="https://raw.githubusercontent.com/sainingo/bookstore/development/src/assets/progress.png" alt="progress-img" />
-          <div>
-            <p>64%</p>
-            <div>completed</div>
-          </div>
+          <img src="https://raw.githubusercontent.com/sainingo/bookstore/development/src/assets/progress.png" className="progerss-img " alt="progress-img" />
+          <p className="progress-para">
+            <span>64%</span>
+            <br />
+            completed
+          </p>
         </div>
-        <div>
+        <div className="book-chapter">
           <p>CURRENT CHAPTER</p>
           <div>Chapter 18</div>
           <button type="button">UPDATE PROGRESS</button>
         </div>
       </div>
-      <button type="button" onClick={handleRemove} className="delete">delete</button>
     </div>
   );
 };
