@@ -26,7 +26,7 @@ export const createBookApi = (book) => (dispatch) => {
       item_id: book.id,
       title: book.title,
       author: book.author,
-      category: 'abc',
+      category: 'action',
     },
   }).catch(() => dispatch(fetchBookErr()));
   dispatch(getBookApi());

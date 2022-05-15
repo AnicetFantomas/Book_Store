@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './BookForm.css';
 import { generate } from 'randomized-string';
 import { useDispatch } from 'react-redux';
 import { addNewBook } from '../../Redux/Books/Books';
@@ -31,8 +32,9 @@ const BookForm = () => {
   };
 
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
+    <div className="form-container">
+      <h2>Add a new book</h2>
+      <form onSubmit={handleSubmit} className="form">
         <input
           id="title"
           type="text"

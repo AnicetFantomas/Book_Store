@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&family=Prompt:wght@300&family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Josefin+Sans:wght@700&family=Oleo+Script+Swash+Caps:wght@700&family=Prompt:wght@300&family=Rubik:wght@700&family=Source+Serif+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Josefin+Sans:wght@700&family=Oleo+Script+Swash+Caps:wght@700&family=Open+Sans:wght@600&family=Prompt:wght@300&family=Radio+Canada:wght@500;600&family=Rubik:wght@700&family=Source+Serif+Pro:wght@600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.book-container {
+  width: 80%;
+  margin: 0 auto;
+  height: auto;
+  padding: 15px;
+  background-color: #fff;
+  border: 2px solid rgba(34, 33, 33, 0.281);
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.book-layout {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  width: 100%;
+}
+
+.book-imfos {
+  margin-right: 80px;
+  align-self: center;
+}
+
+.book-progress {
+  display: flex;
+  margin-right: 8%;
+  align-self: center;
+}
+
+.progerss-img {
+  border-radius: 50%;
+  animation: rotation 8s infinite linear;
+  cursor: pointer;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.book-chapter {
+  align-self: center;
+  font-family: 'Arvo', serif;
+}
+
+.book-chapter button {
+  margin-top: 10px;
+  padding: 7px;
+  background-color: rgb(129, 129, 243);
+  width: 190px;
+  cursor: pointer;
+  border: none;
+}
+
+.book-chapter p {
+  color: rgba(99, 96, 96, 0.897);
+}
+
+.progress-para {
+  align-self: center;
+  font-size: 20px;
+  margin-left: 10px;
+  font-family: 'Prompt', sans-serif;
+}
+
+.progress-para span {
+  font-size: 30px;
+}
+
+.category {
+  color: rgba(0, 0, 0, 0.459);
+  font-weight: bold;
+  font-size: 24px;
+  font-family: 'Arvo', serif;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+  font-family: 'Arvo', serif;
+}
+
+.author {
+  font-size: 18px;
+  font-family: 'Prompt', sans-serif;
+  font-weight: bold;
+  color: rgba(119, 119, 119, 0.459);
+}
+
+.delete {
+  background: none;
+  border: none;
+  width: 90px;
+  height: 30px;
+  color: rgba(119, 119, 119, 0.459);
+  margin: 10px;
+  font-family: 'Prompt', sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.delete:nth-child(2) {
+  border-right: 2px solid rgba(119, 119, 119, 0.459);
+  border-left: 2px solid rgba(119, 119, 119, 0.459);
+}
+
+.delete:hover {
+  color: #000;
+}
